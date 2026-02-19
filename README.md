@@ -4,9 +4,9 @@ This repo contains our PSTAT 194 midterm group project implementing acceptance�
 **Dieter & Ahrens (1974), “Acceptance-Rejection Techniques for Sampling from the Gamma and Beta Distributions.”**
 
 ## What’s included
-- `final_version.Rmd` — full implementation + write-up (all code is inside)
-- `final_version.pdf` — knitted report
-- `slides_final.pdf` — presentation slides
+- `report.Rmd` — full implementation + write-up (all code is inside)
+- `report.pdf` — knitted report
+- `slides.pdf` — presentation slides
 
 ## Methods implemented
 We implement a Gamma(shape = a, rate = 1) RNG using a routing “master” function that selects an algorithm by `a`:
